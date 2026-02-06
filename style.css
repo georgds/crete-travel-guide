@@ -1,0 +1,170 @@
+html {
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+body.index_bg{
+    background-image: url("img/bg.jpg");
+    background-repeat: round;
+}
+
+body.non_index_bg{
+    background-image: url("img/bglarge.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.maintitle{
+    color:rgb(37, 60, 124);
+    background-color: rgba(255, 255, 0, 0);
+    text-align: left;
+    margin-left: 4%;
+    font-size: 2.75rem;
+}
+
+nav{
+    margin-left: 50%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    justify-content: center;   
+}
+
+nav a{
+    padding: 2%;
+    font-size: 1.37rem;
+    min-width: fit-content;
+    text-decoration:none;
+    font-weight: bold;
+    color: rgb(37, 60, 124);
+}
+
+nav a:hover{
+    color:white;
+}
+
+.intro_par{
+    font-size: 19px;
+    font-weight: bold;
+    color:rgb(37, 60, 124);
+    background-color: rgba(255, 255, 255, 0.820);
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 65%;
+    padding-top: 0px;
+    border-radius: 15px;
+}
+
+.header{
+    color:rgb(37, 60, 124);
+    font-size: 26px;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+.ul1{
+    text-align: left;
+}
+
+.column{
+    float: left;
+    width: 22%;
+    padding: 15px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.intro_vid{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.sights{
+    color:rgb(37, 60, 124);
+    display: flex;
+    gap: 2%;
+}
+
+.sights img{
+    max-width: 15%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#bottom-margin {
+    margin-bottom: 5%;
+}
+
+.sights p{
+    text-align: left;
+    margin-right: 25px;
+}
+
+.box{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 80%;
+}
+
+table.tinfo{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.p table.tinfo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+tr.trhead{
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, td, th{
+    border-style: hidden;
+    padding: 4px;
+}
+
+.footer{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(37, 60, 124);
+    background-color: rgba(255, 255, 255, 0.820);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    max-width: 20%;
+    border-radius: 15px;
+}
+
+.sources a {
+  text-decoration: none;     /* removes underline */
+  color: #2a3f8f;            /* blue color */}
+
+.sources a:hover {
+  color: #1a2b6a;
+  text-decoration: underline;
+}
+
